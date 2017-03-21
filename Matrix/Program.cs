@@ -18,7 +18,7 @@ namespace matrix
         static ConsoleColor NormalColor = ConsoleColor.DarkGreen;
         static ConsoleColor GlowColor = ConsoleColor.Green;
         static ConsoleColor FancyColor = ConsoleColor.White;
-        static String TextInput = "Hello Mr. Bean";
+        static String TextInput = "Hello.";
 
 
 
@@ -38,8 +38,14 @@ namespace matrix
             
             Console.ForegroundColor = NormalColor;
             Console.WindowLeft = Console.WindowTop = 0;
-            Console.WindowHeight = Console.BufferHeight = Console.LargestWindowHeight;
-            Console.WindowWidth = Console.BufferWidth = Console.LargestWindowWidth;
+            //Console.WindowHeight = Console.BufferHeight = Console.LargestWindowHeight;
+            //Console.WindowWidth = Console.BufferWidth = Console.LargestWindowWidth;
+
+            Console.SetWindowSize(art[0].Length, art.Length);
+
+            Console.WindowHeight = Console.BufferHeight = art.Length;
+            Console.WindowWidth = Console.BufferWidth = art[0].Length;
+
             Console.SetWindowPosition(0, 0);
             Console.CursorVisible = false;
 
