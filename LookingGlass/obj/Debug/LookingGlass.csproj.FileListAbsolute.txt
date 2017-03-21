@@ -1,0 +1,6 @@
+C:\Users\evgeni\Desktop\Code\LookingGlass\bin\Debug\LookingGlass.exe.config
+C:\Users\evgeni\Desktop\Code\LookingGlass\bin\Debug\LookingGlass.exe
+C:\Users\evgeni\Desktop\Code\LookingGlass\bin\Debug\LookingGlass.pdb
+C:\Users\evgeni\Desktop\Code\LookingGlass\obj\Debug\LookingGlass.csprojResolveAssemblyReference.cache
+C:\Users\evgeni\Desktop\Code\LookingGlass\obj\Debug\LookingGlass.exe
+C:\Users\evgeni\Desktop\Code\LookingGlass\obj\Debug\LookingGlass.pdb
